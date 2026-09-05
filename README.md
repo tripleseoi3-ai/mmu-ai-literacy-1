@@ -21,3 +21,7 @@
 ---
 
 <sub>이 저장소는 자료가 수정될 때마다 자동으로 갱신됩니다.</sub>
+
+## 이 자료의 주소
+
+https://github.com/tripleseoi3-ai/mmu-ai-literacy-1
