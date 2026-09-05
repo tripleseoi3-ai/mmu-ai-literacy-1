@@ -57,3 +57,11 @@ Agent 도구로 `subagent_type: tdd-implementer` 를 호출한다. **한 호출�
 - 커밋 메시지 첫 줄에 REQ ID: `REQ-003: 결석 4회 이상이면 경고 목록에 포함`
 
 세부 지침은 `reference.md`, 추적표 틀은 `template.md`.
+
+## 에이전트를 못 찾으면
+
+`.claude/agents/` 의 에이전트는 **세션이 시작될 때 등록된다.** 방금 추가했다면 `subagent_type: tdd-implementer` 호출이 "Agent type not found" 로 실패한다.
+그때는 둘 중 하나로 처리한다:
+
+- 세션을 새로 시작한다 (권장). 그러면 `tdd-implementer` 이 목록에 뜬다.
+- 급하면 `subagent_type: general-purpose` 로 호출하되, 프롬프트 맨 앞에 `.claude/agents/tdd-implementer.md` 를 먼저 읽고 그 지침을 그대로 따르라고 지시한다.

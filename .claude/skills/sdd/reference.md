@@ -71,4 +71,4 @@ S-01  중복 학번이 섞인 출석부 (REQ-005)
 
 ## 산출물
 
-`docs/specs/<날짜>-<슬러그>/03-spec.md` — 템플릿은 `templates/03-spec.md`.
+`docs/specs/<날짜>-<슬러그>/03-spec.md` — 템플릿은 `template.md`.

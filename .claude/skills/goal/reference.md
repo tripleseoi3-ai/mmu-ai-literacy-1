@@ -58,4 +58,4 @@
 
 ## 산출물
 
-`docs/specs/<날짜>-<슬러그>/02-goal.md` — 템플릿은 `templates/02-goal.md`.
+`docs/specs/<날짜>-<슬러그>/02-goal.md` — 템플릿은 `template.md`.
