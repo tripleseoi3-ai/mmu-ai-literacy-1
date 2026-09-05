@@ -1,0 +1,8 @@
+# 자동 동기화 로그 (내 컴퓨터에만 남김)
+.claude/auto-sync.log
+
+# 윈도우 / 오피스 임시 파일
+Thumbs.db
+desktop.ini
+~$*
+*.tmp
